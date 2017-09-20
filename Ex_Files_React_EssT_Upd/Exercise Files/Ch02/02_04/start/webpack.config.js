@@ -25,7 +25,7 @@ module.exports = {
 			{
 				test: /\.json$/,
 				exclude: /(node_modules)/,
-				loader: ['json-loader']
+				loader: 'json-loader'
 			}
 		]
 	}
